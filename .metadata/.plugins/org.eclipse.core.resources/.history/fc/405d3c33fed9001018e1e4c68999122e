@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class PrimeiroPrograma {
+	
+	static final String SamuelJackson = """ 
+		And you will know 
+		my name is the Lord 
+		""";
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World!!!");
+		System.out.println(SamuelJackson);
+	}
+}

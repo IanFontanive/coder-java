@@ -1,0 +1,11 @@
+package fundamentos;
+
+public class AreaCircuferencia {
+	//Main é a porta de entrada de um programa Java!
+	public static void main(String[] args) {
+		double raio = 3.4;
+		static final double pi = 3.14159;
+		
+		System.out.println(pi * raio * pi);
+	}
+}
