@@ -9,5 +9,17 @@ public class NotacaoPonto {
 		g = g.concat("!!!");
 				
 		System.out.println(g);
+		
+		String i = "Ian".toUpperCase();
+		IO.println(i);
+		
+		String A  = "Quando eu falar e quando eu ouvir que ";
+		String B = "o amor brilhe através de mim";
+		String C = "!!!";
+		String D = (A + B).toUpperCase().replace("EU", "Ian")
+				.concat(C);
+		IO.print(D);
+		
+		// Tipos primitivos não tem a notação (.)
 	}
 }
