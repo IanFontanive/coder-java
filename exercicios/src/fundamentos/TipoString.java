@@ -26,7 +26,7 @@ public class TipoString {
 				+ sobrenome + "\nIdade: " + idade + 
 				"\nSalário: " + salario + "\n\n";
 		System.out.println(fichaDeDados);
-		System.out.printf("O senhor %s %s tem %d anos e ganha R$%.2f.",
+		System.out.printf("O senhor %s %s tem %d anos e ganha R$%.2f.\n",
 				nome, sobrenome, idade, salario);
 		
 		//Outros métodos de println
