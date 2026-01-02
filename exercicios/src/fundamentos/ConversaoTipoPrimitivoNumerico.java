@@ -11,7 +11,7 @@ public class ConversaoTipoPrimitivoNumerico {
 		float b = (float) 1.0;//Explícito (CAST)
 		System.out.println(b);
 		
-		int c = 4;
+		int c = 4; //Implícita
 		byte d = (byte) c; //Explícita (CAST)
 		System.out.println(d);
 		
